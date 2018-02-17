@@ -41,7 +41,7 @@ namespace BopIt
                 };
             waveIn.StartRecording();
 
-            //Amplitude meter de-incrimenter
+            //Volume meter de-incrimenter
             #region
             progressReset.Interval = 50;
             progressReset.Elapsed += (o, arg) =>
